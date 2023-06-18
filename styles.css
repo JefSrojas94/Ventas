@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+header{
+    display: grid;
+    justify-content: center;
+    margin-top: 5%;
+}
+main{
+    margin-top: 15%;
+    display: grid;
+    justify-content: center;
+}
+.formulario{
+    display: grid;
+    justify-items: center;
+}
+.titulo{
+    margin: 0 0 5% 0;
+}

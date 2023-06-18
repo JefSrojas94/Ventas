@@ -1,6 +1,11 @@
 *{
     margin: 0;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: #6773AA;
+}
 header{
     display: grid;
     justify-content: center;
@@ -13,8 +18,56 @@ main{
 }
 .formulario{
     display: grid;
-    justify-items: center;
+    justify-content: space-around;
+    width:400px ;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #737fb2;
+
 }
 .titulo{
-    margin: 0 0 5% 0;
+    color: #14F9a6;
+    font-size: 25px;
+    display: grid;
+    justify-items: center;
+    margin-top: 30px;
+}
+.nombre{
+    color: #14F9a6;
+    font-size: 25px;
+    display: grid;
+    justify-items: center;
+    margin-top: 30px;
+}
+.vendedor{
+    list-style: none;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    background-color: #818Ec6;
+    padding: 20px 14px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #f0f0f0;
+}
+::placeholder{
+    color: #8FC9F3;
+    font-size: 15px;
+}
+:focus{
+    outline: 1px solid #14F9a6;
+}
+.btn{
+    background-color: #14F9a6;
+    color: #146d31;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #14EA9B;
 }

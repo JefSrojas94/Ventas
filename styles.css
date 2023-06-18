@@ -1,6 +1,10 @@
 *{
     margin: 0;
 }
+h1{
+    color: #14F9a6;
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
@@ -12,7 +16,7 @@ header{
     margin-top: 5%;
 }
 main{
-    margin-top: 15%;
+    margin-top: 5%;
     display: grid;
     justify-content: center;
 }
@@ -70,4 +74,30 @@ input, textarea {
 }
 .btn:hover{
     background-color: #14EA9B;
+}
+@media(max-width:991px) {
+    body{
+        padding: 30px;
+    }
+    form{
+        width: 100%;
+    }
+}
+#Perfumes{
+    appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #818Ec6;
+    height: 60px;
+}
+select, textarea{
+    background-color: #818Ec6;
+    padding: 20px 14px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #14F9a6;
 }

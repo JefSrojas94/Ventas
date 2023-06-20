@@ -83,7 +83,7 @@ input, textarea {
         width: 100%;
     }
 }
-#Perfumes{
+.Perfumes{
     appearance: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;

@@ -22,13 +22,14 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     console.log("Perfume vendido por Pedro:", pedro, " Cantidad vendida: ",cantPedro);
   
     // Puedes enviar los datos a un servidor, realizar validaciones, etc.
-    const totalVentJ=0;
-    const totalVentP=0;
+    const totalVentJ=[];
+    const totalVentP=[];
     if (juana==="Aqua") {
-        totalVentJ=cantJuana*200
+        totalVentJ.push(200)
     }else if (juana==="Emoción") {
-        totalVentJ=cantJuana*180;
+        totalVentJ.push(180);
     }
+    console.log("total vendido por juana: ",totalVentJ)
   
     // Opcionalmente, puedes resetear el formulario después de obtener los datos
     document.getElementById("myForm").reset();

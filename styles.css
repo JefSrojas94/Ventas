@@ -92,6 +92,15 @@ input, textarea {
     background-color: #818Ec6;
     height: 60px;
 }
+.selecVend{
+    appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #818Ec6;
+    height: 60px;
+}
 select, textarea{
     background-color: #818Ec6;
     padding: 20px 14px;

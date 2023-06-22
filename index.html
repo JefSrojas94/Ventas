@@ -15,30 +15,25 @@
     <form id="myForm" class="formulario" action="">
         <h2 class="titulo">Ventas</h2>
         <div class="input-group">
-            <ul id="list-vend">
-                <li class="vendedor">
-                    <h3 class="nombre">Juana</h3>
-                    <select name="Perfumes" class="Perfumes" id="perfumesJuana" onchange="ShowSelected();">
+            
+               
+                    <select name="vendedor" id="selecVend">
+                        <option value="Juana">Juana</option>
+                        <option value="Pedro">Pedro</option>
+                    </select>
+                    <select name="Perfumes" class="Perfumes" id="perfumesJuana">
                         <option value="Aqua">Aqua</option>
                         <option value="Emoción">Emoción</option>
                         <option value="Alegría">Alegría</option>
                         <option value="Frescura">Frescura</option>
                     </select>
-                    <input id="cantJuana" class="cant-vent" type="text" placeholder="Cantidad Vendida">
-                </li>
+                    <input id="cantJuana" class="cant-vent" type="number" placeholder="Cantidad Vendida" name="cantidad">
+                
 
-                <li class="vendedor">
-                    <h3 class="nombre">Pedro</h3>
-                    <select name="Perfumes" class="Perfumes" id="perfumesPedro">
-                        <option value="Aqua">Aqua</option>
-                        <option value="Emoción">Emoción</option>
-                        <option value="Alegría">Alegría</option>
-                        <option value="Frescura">Frescura</option>
-                    </select>
-                    <input id="cantPedro" class="cant-vent" type="text" placeholder="Cantidad Vendida">
-                </li>
-            </ul>
+                
+           
             <input class="btn" type="submit" value="Enviar">
+            
         </div>
 
         </form>
